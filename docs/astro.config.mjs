@@ -13,6 +13,10 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
+      /*logo: {
+        src: './src/assets/comet.svg',
+        replacesTitle: true,
+      },*/
       social: {
           github: 'https://github.com/cometcdn/comet',
       },
