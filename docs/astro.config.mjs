@@ -10,6 +10,9 @@ export default defineConfig({
   site: 'https://comet-cdn.netlify.app/',
   integrations: [starlight({
       title: 'Comet CDN',
+      customCss: [
+        './src/styles/custom.css',
+      ],
       social: {
           github: 'https://github.com/cometcdn/comet',
       },
